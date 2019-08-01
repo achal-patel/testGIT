@@ -1,0 +1,4 @@
+data _null_;
+   version = GITFN_VERSION();      /*1*/
+   put version=;                   /*2*/
+run;
